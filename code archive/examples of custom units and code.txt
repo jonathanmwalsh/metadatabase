@@ -1,0 +1,24 @@
+<additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit abbreviation="kg/m2" id="kilogramPerMeterSquared" multiplierToSI="1" name="kilogramPerMeterSquared" parentSI="kilogramPerMeterSquared" unitType="arealMassDensity">
+          <stmml:description>kilograms per square meter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="kg m-2 d-1" id="kilogramPerMeterSquaredPerDay" name="kilogramPerMeterSquaredPerDay" parentSI="kilogramPerMeterCubed" constantToSI="0" unitType="areaMassDensityRate">
+          <stmml:description>areal primary production rate, may apply to DW, or to element content, e.g., Carbon or Nitrogen"</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="number" name="number" unitType="dimensionless">
+          <stmml:description>a number</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="numberPerMeterSquared" multiplierToSI="1" name="numberPerMeterSquared" unitType="arealDensity">
+          <stmml:description>number per meter squared</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="day^-1" id="reciprocalDay" name="reciprocalDay" parentSI="second" unitType="timeReciprocal">
+          <stmml:description>per day, specific growth rate</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+
+
+

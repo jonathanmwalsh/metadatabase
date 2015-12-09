@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-sbx.1.5" system="https://pasta.lternet.edu"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=sbc,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=j_dugan,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=mobrien,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <shortName>TESTING GREEK LETTERS</shortName>
+    <title>TESTING GREEK LETTERS - and non-English characters</title>
+    <creator id="sbc-boilerplate-creator_SBC" scope="system" system="sbclter">
+      <organizationName>SBCLTER</organizationName>
+      <address scope="document">
+        <deliveryPoint>Santa Barbara Coastal LTER</deliveryPoint>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </creator>
+    <creator id="ewallner" scope="document" system="lter">
+      <individualName>
+        <givenName>Elisa</givenName>
+        <givenName>R</givenName>
+        <surName>Halewood</surName>
+      </individualName>
+      <organizationName>SBCLTER</organizationName>
+      <address scope="document">
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805-893-7367</phone>
+      <electronicMailAddress>wallner@lifesci.ucsb.edu</electronicMailAddress>
+      <userId directory="sbclter-directory">ewallner</userId>
+    </creator>
+    <creator id="ccarlson1" scope="document" system="lter">
+      <individualName>
+        <givenName>Craig</givenName>
+        <givenName>A</givenName>
+        <surName>Carlson</surName>
+      </individualName>
+      <organizationName>SBCLTER</organizationName>
+      <address scope="document">
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805-893-2541</phone>
+      <electronicMailAddress>carlson@lifesci.ucsb.edu</electronicMailAddress>
+      <userId directory="sbclter-directory">ccarlson1</userId>
+    </creator>
+    <creator id="mbrzezinski" scope="document" system="lter">
+      <individualName>
+        <givenName>Mark</givenName>
+        <givenName>A</givenName>
+        <surName>Brzezinski</surName>
+      </individualName>
+      <organizationName>SBCLTER</organizationName>
+      <address scope="document">
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805-893-8605</phone>
+      <electronicMailAddress>brzezins@lifesci.ucsb.edu</electronicMailAddress>
+      <userId directory="sbclter-directory">mbrzezinski</userId>
+    </creator>
+    <creator id="jgoodman" scope="document" system="lter">
+      <individualName>
+        <givenName>Jo</givenName>
+        <surName>Goodman</surName>
+      </individualName>
+      <organizationName>SBCLTER</organizationName>
+      <address scope="document">
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805-893-7061</phone>
+      <electronicMailAddress>goodman@lifesci.ucsb.edu</electronicMailAddress>
+      <userId directory="sbclter-directory">jgoodman</userId>
+    </creator>
+    <pubDate>2012</pubDate>
+    <abstract>
+      <para>
+        <literalLayout>This are the greek characters in UTF-8: 
+        Αα 	Alpha 	Νν 	Nu
+        Ββ 	Beta 	Ξξ 	Xi
+        Γγ 	Gamma 	Οο 	Omicron
+        Δδ 	Delta 	Ππ 	Pi
+        Εε 	Epsilon 	Ρρ 	Rho
+        Ζζ 	Zeta 	Σσς 	Sigma
+        Ηη 	Eta 	Ττ 	Tau
+        Θθ 	Theta 	Υυ 	Upsilon
+        Ιι 	Iota 	Φφ 	Phi
+        Κκ 	Kappa 	Χχ 	Chi
+        Λλ 	Lambda 	Ψψ 	Psi
+        Μμ 	Mu 	Ωω 	Omega
+      </literalLayout>
+      </para>
+
+      <para>
+        The following characters are excerpted from 
+        <ulink url="http://www.periodni.com/unicode_utf-8_encoding.html">http://www.periodni.com/unicode_utf-8_encoding.html</ulink> 
+        Each character is first in utf-8, then xml-encoded. These will appear the same in rendered html. Look at the EML doc to see the actual characters. 
+      </para>
+      <para>
+        <literalLayout>
+        Spanish:
+        Capital A with acute	Á	Á	Small A with acute	á	á
+        Capital E with acute	É 	É	Small e with acute	é	é
+        Capital I with acute	Í	Í	Small I with acute	í	í
+        Capital N with tilde	Ñ	Ñ	Small N with tilde	ñ	ñ
+        Capital O with acute	Ó	Ó	Small o with acute	ó	ó
+        Capital U with acute	Ú	Ú	Small U with acute	ú	ú
+        Capital U with umlaut	Ü	Ü	Small U with umlaut	ü	ü
+        Inverted question mark	¿	¿	Inverted exclamation point	¡	¡
+      </literalLayout>
+      </para>
+      <para>
+        <literalLayout>
+        German:
+        Capital A with umlaut	Ä 	Ä	Small a with umlaut	ä 	ä
+        Capital E with acute	É 	É	Small e with acute	é	é
+        Capital O with umlaut	Ö 	Ö	Small o with umlaut	ö 	ö
+        Capital U with umlaut	Ü 	Ü	Small u with umlaut	ü 	ü
+        SZ ligature	ß 	ß	 	 	
+      </literalLayout>
+      </para>
+      <para>
+        <literalLayout>
+        French:
+        Capital A with grave	À	À	Small a with grave	à	à
+        Capital A with circumflex	Â	Â	Small a with circumflex	â	â
+        Capital AE Ligature	Æ	Æ	Small ae Ligature	æ	æ
+        Capital C with cedilla	Ç	Ç	Small c with cedilla	ç	ç
+        Capital E with grave	È	È	Small e with grave	è	è
+        Capital E with acute	É	É	Small e with acute	é	é
+        Capital E with circumflex	Ê	Ê	Small e with circumflex	ê	ê
+        Capital E with umlaut	Ë	Ë	Small e with umlaut	ë	ë
+        Capital I with circumflex	Î	Î	Small i with circumflex	î	î
+        Capital I with umlaut	Ï	Ï	Small i with umlaut	ï	ï
+        Capital O with circumflex	Ô	Ô	Small o with circumflex	ô	ô
+        Capital OE ligature	Œ	Œ	Small oe ligature	œ	œ
+        Capital U with grave	Ù	Ù	Small u with grave	ù	ù
+        Capital U with circumflex	Û	Û	Small u with circumflex	û	û
+        Capital U with umlaut	Ü	Ü	Small u with umlaut	ü	ü
+        Capital Y with diaeresis	Ÿ	Ÿ	Small Y with diaeresis	ÿ	ÿ       
+        </literalLayout>
+      </para>
+      <para>
+        Assorted math symbols:
+        Plus-minus sign	±	±	
+        Degree sign	° 	°
+        not equal to	≠	≠
+      </para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Santa Barbara Coastal</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Inorganic Nutrients</keyword>
+      <keyword keywordType="theme">Populations</keyword>
+      <keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Nearshore Ocean</keyword>
+      <keyword keywordType="theme">Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER: Habitats</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Biogeochemistry</keyword>
+      <keyword keywordType="theme">Community Structure</keyword>
+      <keyword keywordType="theme">Physical Oceanography</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER: Measurement Types</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Mohawk Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER: Places</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Marine</keyword>
+      <keyword keywordType="theme">Temperature</keyword>
+      <keywordThesaurus>KNB</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Biomass</keyword>
+      <keyword keywordType="theme">Carbon</keyword>
+      <keyword keywordType="theme">Chlorophylls</keyword>
+      <keyword keywordType="theme">Nutrients</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Ocean Temperature: Water Temperature</keyword>
+      <keyword keywordType="theme">Salinity/Density: Conductivity</keyword>
+      <keyword keywordType="theme">Salinity/Density: Density</keyword>
+      <keyword keywordType="theme">Salinity/Density: Salinity</keyword>
+      <keyword keywordType="theme">Water Pressure: Pressure</keyword>
+      <keyword keywordType="theme">Ocean Optics: Attenuation/Transmission</keyword>
+      <keyword keywordType="theme">Ocean Optics: Fluorescence</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Nutrients</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Nitrate</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Phosphate</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Ammonia</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Silicate</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Pigments</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Chlorophyll</keyword>
+      <keyword keywordType="theme">Ocean Chemistry: Organic Carbon</keyword>
+      <keywordThesaurus>GCMD Keywords, Version 6.0.0.0.0: Earth Science: Oceans</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>MIRADA</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">seawater</keyword>
+      <keyword keywordType="theme">oceans</keyword>
+      <keyword keywordType="theme">nitrogen</keyword>
+      <keyword keywordType="theme">phosphate</keyword>
+      <keyword keywordType="theme">total phosphorus</keyword>
+      <keyword keywordType="theme">particulate organic carbon</keyword>
+      <keyword keywordType="theme">nitrate</keyword>
+      <keyword keywordType="theme">carbon</keyword>
+      <keyword keywordType="theme">ammonium</keyword>
+      <keyword keywordType="theme">CTD</keyword>
+      <keyword keywordType="theme">productivity</keyword>
+      <keyword keywordType="theme">dissolved organic carbon</keyword>
+      <keyword keywordType="theme">chlorophyll a</keyword>
+      <keyword keywordType="theme">marine</keyword>
+      <keyword keywordType="theme">phytoplankton</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The user of SBC LTER data agrees to contact the data owner (i.e., the SBC
+              investigator responsible for data) prior to publishing. Where appropriate, users whose
+              projects are integrally dependent on SBC LTER data are encouraged to consider
+              collaboration and/or co-authorship with the data owner.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees to cite SBC LTER in all publications that use SBC LTER data by
+              including the following statement in the Acknowledgments: "Data were provided by the
+              Santa Barbara Coastal LTER, funded by the US National Science Foundation (OCE
+              0620276)".</para>
+          </listitem>
+          <listitem>
+            <para> The user agrees to send the full citation of any publication using SBC LTER data
+              to sbclter@msi.ucsb.edu </para>
+          </listitem>
+          <listitem>
+            <para>Users are prohibited from selling or redistributing any data provided by SBC
+              LTER.</para>
+          </listitem>
+          <listitem>
+            <para>Extensive efforts are made to ensure that online data are accurate and up to date,
+              but SBC LTER will not take responsibility for any errors that may exist.</para>
+          </listitem>
+          <listitem>
+            <para>The user agrees also to adhere to the Data Use Agreement of the Long Term
+              Ecological Research Network.</para>
+          </listitem>
+          <listitem>
+            <para>Any violation of the terms of this agreement will result in immediate forfeiture
+              of the data and loss of access privileges to other SBC LTER data sets.</para>
+          </listitem>
+          <listitem>
+            <para>SBC LTER is committed to protecting the privacy and accuracy of your confidential
+              information. See our Privacy Policy for more information.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution id="Santa Barbara Coastal LTER" scope="system" system="sbclter">
+      <online>
+        <url function="information">http://sbc.lternet.edu</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="MK_CS1" scope="document">
+        <geographicDescription>Mohawk Inshore Cross Shelf 1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.73012</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.73012</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.36755</northBoundingCoordinate>
+          <southBoundingCoordinate>34.36755</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MK_CS2" scope="document">
+        <geographicDescription>Mohawk Reef Cross Shelf 2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.73012</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.73012</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3758</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3758</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MK_CS3" scope="document">
+        <geographicDescription>Mohawk Reef Cross Shelf 3</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.73012</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.73012</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.385</northBoundingCoordinate>
+          <southBoundingCoordinate>34.385</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MK_CS4" scope="document">
+        <geographicDescription>Mohawk Reef Cross Shelf 4</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.73012</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.73012</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.39013</northBoundingCoordinate>
+          <southBoundingCoordinate>34.39013</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MK_CS5" scope="document">
+        <geographicDescription>Mohawk Reef Cross Shelf 5</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.73012</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.73012</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.39338</northBoundingCoordinate>
+          <southBoundingCoordinate>34.39338</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage scope="document">
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-01-16</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2009-04-20</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This dataset is complete, and has no planned additions.</para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact id="sbc-boilerplate-contact_SBC" scope="system" system="sbclter">
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address scope="document">
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher id="sbc-boilerplate-publisher_SBC" scope="system" system="sbclter">
+      <organizationName>Santa Barbara Coastal Long Term Ecological Research
+        Project</organizationName>
+    </publisher>
+    <pubPlace>Santa Barbara, CA, USA</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>CTD Instrumentation, collection and analysis</title>
+            <para>CTD data are collected and analyzed according to the following protocols and
+              instruments</para>
+          </section>
+        </description>
+        <protocol>
+          <title>LTERcruise_CTD_collection.pdf</title>
+          <creator>
+            <individualName>
+              <surName>Washburn</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url>http://sbc.lternet.edu/external/Ocean/Protocols/Monthly_Water_Sampling_CTD_bottles_textonly.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <protocol>
+          <title>SBC LTER Monthly CTD processing -- All data</title>
+          <creator>
+            <individualName>
+              <surName>Washburn</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url>http://sbc.lternet.edu/external/Ocean/Protocols/Washburn_2007-10-23_SBCLTER_monthly_CTD_processing.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <instrumentation>SBE19-Plus with rosette sampler (Go-Flo) and bottles drained under pressure  (june 2008 - present)</instrumentation>
+        <instrumentation>SBE19-Plus with rosette sampler (Go-Flo) (Feb 2003 - Jun 2008)</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Visualization Software: Ocean Data View</title>
+            <para> These data were designed to be loaded into the visualization program "Ocean Data
+              View". See links for more information.</para>
+          </section>
+        </description>
+        <protocol>
+          <title>Information about Ocean Data View</title>
+          <creator>
+            <organizationName>ALfred Wegener Institute</organizationName>
+          </creator>
+          <distribution>
+            <online>
+              <url>http://odv.awi.de/</url>
+            </online>
+          </distribution>
+          <distribution>
+            <online>
+              <url>http://sbc.lternet.edu/external/SOFTWARE/OceanDataView/odvGuide.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+        <protocol>
+          <title>README: Using Ocean Data View with SBC LTER data</title>
+          <creator>
+            <individualName>
+              <surName>O'Brien</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url>http://sbc.lternet.edu/external/SOFTWARE/OceanDataView/README.txt</url>
+            </online>
+          </distribution>
+        </protocol>
+        <software>
+          <title>Hi-Resolution Bathymetry for Santa Barbara Channel (ODVinstall_SBCbathy.exe)</title>
+          <creator>
+            <individualName>
+              <surName>Gotschalk</surName>
+            </individualName>
+          </creator>
+          <implementation>
+            <distribution>
+              <online>
+                <url>http://sbc.lternet.edu/external/SOFTWARE/OceanDataView/ODVinstall_SBCbathy.exe</url>
+              </online>
+            </distribution>
+          </implementation>
+          <version>0.1</version>
+        </software>
+      </methodStep>
+      <!--
+        moving methods to the data table level.
+        -->
+    </methods>
+    <project id="sbc-boilerplate-project_SBC" scope="system" system="sbclter">
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Steven</givenName>
+          <surName>Gaines</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3764</phone>
+        <electronicMailAddress>gaines@msi.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis>) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Award OCE-0620276</para>
+        </section>
+      </funding>
+      <relatedProject id="cross_shelf_doc" scope="system" system="sbclter">
+        <title>Cross Shelf DOC</title>
+        <personnel>
+          <references>ccarlson1</references>
+          <role>Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <references>ewallner</references>
+          <role>Graduate Student</role>
+        </personnel>
+        <personnel>
+          <references>mbrzezinski</references>
+          <role>Principal Investigator</role>
+        </personnel>
+        <abstract>
+          <para>The objective of the cross-shelf time series is to resolve development of the
+            temporal and spatial gradients in organic and inorganic constituents in the near shore
+            environment and to determine if those gradients are related to microbial activity and
+            resulting community structure.</para>
+        </abstract>
+      </relatedProject>
+    </project>
+    <dataTable id="SBC_LTER_cross_shelf_study_2008_5m_phyto_counts" scope="document">
+      <entityName>SBC_LTER_cross_shelf_study_2008_5m_phyto_counts.csv</entityName>
+      <entityDescription>Abundances of phytoplankton, by genus, from rosette bottles at 5 m.</entityDescription>
+      <physical scope="document">
+        <objectName>SBC_LTER_cross_shelf_study_2008_5m_phyto_counts.csv</objectName>
+        <size unit="byte">12716</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution id="cross_shelf_phyto_counts_sbclter.csv" scope="document">
+          <online>
+            <url function="download">https://pasta-s.lternet.edu/package/data/eml/knb-lter-sbx/1/5/590b60f63dd11ae44a0313e36df81ea1</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2008-01-16</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2009-04-20</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+        <taxonomicCoverage>
+          <taxonomicClassification>
+            <taxonRankName>Class</taxonRankName>
+            <taxonRankValue>Bacillariophyceae</taxonRankValue>
+            <commonName>Diatom</commonName>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Pseudo-nitzschia</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Leptocylindrus</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Thalassiosira</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Chaetoceros</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Eucampia</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Rhizosolenia</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Skeletonema</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Nitzschia</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Navicula</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Asterionellopsis</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Meuniera</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Thalassionema</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Guinardia</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Hemiaulus</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Ditylum</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Coscinodiscus</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Cylindrotheca</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Bacteriastrum</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Heliotheca</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Stephanopyxis</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Corethron</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Pleurosigma</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Thalassiothrix</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Asteromphalus</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Licomorpha</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Odontella</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Lithodesmium</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Melosira</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Fragilariopsis</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Diatom unknown</taxonRankValue>
+            </taxonomicClassification>
+          </taxonomicClassification>
+          <taxonomicClassification>
+            <taxonRankName>Phylum</taxonRankName>
+            <taxonRankValue>Dinoflagellata</taxonRankValue>
+            <commonName>Dinoflagellates</commonName>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Prorocentrum</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Ceratium</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Akashiwo</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Lingulodinium</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Dinophysis</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Scrippsiella</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Protoperidinium</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Gonyaulax</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Alexandrinium</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Noctiluca</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Oxytoxum</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Amylax</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Pyrocystis</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Dinoflagellate unknown</taxonRankValue>
+            </taxonomicClassification>
+          </taxonomicClassification>
+          <taxonomicClassification>
+            <commonName>Other</commonName>
+            <!-- TDOD: Find class/phylum -->
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Dictyocha</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>genus</taxonRankName>
+              <taxonRankValue>Phaeocystis</taxonRankValue>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicCoverage>
+      </coverage>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <title>Phytoplankton counts</title>
+              <para>Samples from 5 m depth at each station were analyzed for phytoplankton taxa under
+                an inverted light microscope using the Utermöhl method (Utermöhl, 1931, 1958). At each
+                station 125 mL bottles were filled with seawater and 37% formaldehyde was added to a
+                final concentration of 2%. The preserved samples were settled using 50 mL settling
+                columns for ~24 hours, and phytoplankton taxa were identified to genus and enumerated using a
+                Leitz Wetzlar Diavert inverted microscope at 350 x magnification. A total of ~500
+                cells were counted for each sample.</para>
+            </section>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute id="cruise_4" scope="document">
+          <attributeName>Cruise</attributeName>
+          <attributeLabel>Cruise</attributeLabel>
+          <attributeDefinition>Label of cruise</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="date_4" scope="document">
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>format is in day-month-year</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>YYYY-WW-DD</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="station_4" scope="document">
+          <attributeName>Station</attributeName>
+          <attributeLabel>Station</attributeLabel>
+          <attributeDefinition>Code for this station name</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Mohawk Reef Cross Shelf 1 (MK_CS1)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Mohawk Reef Cross Shelf 2 (MK_CS2)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Mohawk Reef Cross Shelf 3 (MK_CS3)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Mohawk Reef Cross Shelf 4 (MK_CS4)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Mohawk Reef Cross Shelf 5 (MK_CS5)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <coverage>
+            <geographicCoverage>
+              <references>MK_CS1</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>MK_CS2</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>MK_CS3</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>MK_CS4</references>
+            </geographicCoverage>
+            <geographicCoverage>
+              <references>MK_CS5</references>
+            </geographicCoverage>
+          </coverage>
+        </attribute>
+        <attribute id="depth_4" scope="document">
+          <attributeName>Depth (m)</attributeName>
+          <attributeLabel>Depth (m)</attributeLabel>
+          <attributeDefinition>Nominal depth of this measurement</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Pseudo-nitzschia_4">
+          <attributeName>Pseudo-nitzschia</attributeName>
+          <attributeLabel>Pseudo-nitzschia (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Pseudo-nitzschia in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Leptocylindrus_4">
+          <attributeName>Leptocylindrus</attributeName>
+          <attributeLabel>Leptocylindrus (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Leptocylindrus in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Thalassiosira_4">
+          <attributeName>Thalassiosira</attributeName>
+          <attributeLabel>Thalassiosira (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Thalassiosira in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Chaetoceros_4">
+          <attributeName>Chaetoceros</attributeName>
+          <attributeLabel>Chaetoceros (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Chaetoceros in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Eucampia_4">
+          <attributeName>Eucampia</attributeName>
+          <attributeLabel>Eucampia (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Eucampia in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Rhizosolenia_4">
+          <attributeName>Rhizosolenia</attributeName>
+          <attributeLabel>Rhizosolenia (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Rhizosolenia in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Skeletonema_4">
+          <attributeName>Skeletonema</attributeName>
+          <attributeLabel>Skeletonema (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Skeletonema in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Nitzschia_4">
+          <attributeName>Nitzschia</attributeName>
+          <attributeLabel>Nitzschia (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Nitzschia in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Navicula_4">
+          <attributeName>Navicula</attributeName>
+          <attributeLabel>Navicula (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Navicula in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Asterionellopsis_4">
+          <attributeName>Asterionellopsis</attributeName>
+          <attributeLabel>Asterionellopsis (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Asterionellopsis in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Meuniera_4">
+          <attributeName>Meuniera</attributeName>
+          <attributeLabel>Meuniera (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Meuniera in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Thalassionema_4">
+          <attributeName>Thalassionema</attributeName>
+          <attributeLabel>Thalassionema (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Thalassionema in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Guinardia_4">
+          <attributeName>Guinardia</attributeName>
+          <attributeLabel>Guinardia (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Guinardia in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Hemiaulus_4">
+          <attributeName>Hemiaulus</attributeName>
+          <attributeLabel>Hemiaulus (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Hemiaulus in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Ditylum_4">
+          <attributeName>Ditylum</attributeName>
+          <attributeLabel>Ditylum (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Ditylum in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Coscinodiscus_4">
+          <attributeName>Coscinodiscus</attributeName>
+          <attributeLabel>Coscinodiscus (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Coscinodiscus in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Cylindrotheca_4">
+          <attributeName>Cylindrotheca</attributeName>
+          <attributeLabel>Cylindrotheca (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Cylindrotheca in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Bacteriastrum_4">
+          <attributeName>Bacteriastrum</attributeName>
+          <attributeLabel>Bacteriastrum (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Bacteriastrum in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Heliotheca_4">
+          <attributeName>Heliotheca</attributeName>
+          <attributeLabel>Heliotheca (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Heliotheca in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Stephanopyxis_4">
+          <attributeName>Stephanopyxis</attributeName>
+          <attributeLabel>Stephanopyxis (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Stephanopyxis in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Corethron_4">
+          <attributeName>Corethron</attributeName>
+          <attributeLabel>Corethron (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Corethron in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Pleurosigma_4">
+          <attributeName>Pleurosigma</attributeName>
+          <attributeLabel>Pleurosigma (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Pleurosigma in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Thalassiothrix_4">
+          <attributeName>Thalassiothrix</attributeName>
+          <attributeLabel>Thalassiothrix (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Thalassiothrix in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Asteromphalus_4">
+          <attributeName>Asteromphalus</attributeName>
+          <attributeLabel>Asteromphalus (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Asteromphalus in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Licomorpha_4">
+          <attributeName>Licomorpha</attributeName>
+          <attributeLabel>Licomorpha (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Licomorpha in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Odontella_4">
+          <attributeName>Odontella</attributeName>
+          <attributeLabel>Odontella (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Odontella in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Lithodesmium_4">
+          <attributeName>Lithodesmium</attributeName>
+          <attributeLabel>Lithodesmium (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Lithodesmium in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Melosira_4">
+          <attributeName>Melosira</attributeName>
+          <attributeLabel>Melosira (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Melosira in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Fragilariopsis_4">
+          <attributeName>Fragilariopsis</attributeName>
+          <attributeLabel>Fragilariopsis (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Fragilariopsis in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Diatom_unknown_4">
+          <attributeName>Diatom_unknown</attributeName>
+          <attributeLabel>Diatom unknown (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Diatom unknown in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Prorocentrum_4">
+          <attributeName>Prorocentrum</attributeName>
+          <attributeLabel>Prorocentrum (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Prorocentrum in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Ceratium_4">
+          <attributeName>Ceratium</attributeName>
+          <attributeLabel>Ceratium (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Ceratium in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Akashiwo_4">
+          <attributeName>Akashiwo</attributeName>
+          <attributeLabel>Akashiwo (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Akashiwo in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Lingulodinium_4">
+          <attributeName>Lingulodinium</attributeName>
+          <attributeLabel>Lingulodinium (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Lingulodinium in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Dinophysis_4">
+          <attributeName>Dinophysis</attributeName>
+          <attributeLabel>Dinophysis (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Dinophysis in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Scrippsiella_4">
+          <attributeName>Scrippsiella</attributeName>
+          <attributeLabel>Scrippsiella (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Scrippsiella in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Protoperidinium_4">
+          <attributeName>Protoperidinium</attributeName>
+          <attributeLabel>Protoperidinium (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Protoperidinium in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Gonyaulax_4">
+          <attributeName>Gonyaulax</attributeName>
+          <attributeLabel>Gonyaulax (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Gonyaulax in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Alexandrinium_4">
+          <attributeName>Alexandrinium</attributeName>
+          <attributeLabel>Alexandrinium (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Alexandrinium in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Noctiluca_4">
+          <attributeName>Noctiluca</attributeName>
+          <attributeLabel>Noctiluca (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Noctiluca in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Oxytoxum_4">
+          <attributeName>Oxytoxum</attributeName>
+          <attributeLabel>Oxytoxum (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Oxytoxum in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Amylax_4">
+          <attributeName>Amylax</attributeName>
+          <attributeLabel>Amylax (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Amylax in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Pyrocystis_4">
+          <attributeName>Pyrocystis</attributeName>
+          <attributeLabel>Pyrocystis (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Pyrocystis in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Dinoflagellate_unknown_4">
+          <attributeName>Dinoflagellate_unknown</attributeName>
+          <attributeLabel>Dinoflagellate unknown (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Dinoflagellate unknown in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Dictyocha_4">
+          <attributeName>Dictyocha</attributeName>
+          <attributeLabel>Dictyocha (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Dictyocha in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Phaeocystis_4">
+          <attributeName>Phaeocystis</attributeName>
+          <attributeLabel>Phaeocystis (cells/liter)</attributeLabel>
+          <attributeDefinition>Number of cells of Phaeocystis in one liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>80</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit abbreviation="m-1" id="reciprocalMeter" multiplerToSI="1"
+          name="reciprocalMeter" parentSI="meter" unitType="lengthReciprocal">
+          <description>per meter, describes optical properties</description>
+        </unit>
+        <unit abbreviation="dbar" id="decibar" multiplerToSI="10,000"
+          name="decibar" parentSI="pascal" unitType="pressure">
+          <description>pressure, oceanography</description>
+        </unit>
+        <unit abbreviation="o/o" id="percent" multiplerToSI=".01"
+          name="percent" parentSI="gramsPerGram" unitType="massPerMass">
+          <description>parts per hundred</description>
+        </unit>
+        <unit abbreviation="o/oo" id="permil" multiplerToSI=".001"
+          name="permil" parentSI="gramsPerGram" unitType="massPerMass">
+          <description>parts per thousand, relative to a standard. for isotopes. Isotope data uses
+            LC-delta=(Rx/Rs-1)*1000</description>
+        </unit>
+        <unit abbreviation="mmol*m-3" id="millimolesPerCubicMeter"
+          multiplerToSI=".001" name="millimolesPerCubicMeter"
+          parentSI="molesPerCubicMeter" unitType="amountOfSubstanceConcentration">
+          <description>concentration unit</description>
+        </unit>
+        <unit id="micromolePerLiter" multiplerToSI=".001"
+          name="micromolePerLiter" parentSI="molesPerCubicMeter" unitType="amountOfSubstanceConcentration">
+          <description>concentration, same magnitude as micromolar (for a dissolved
+            constituent)</description>
+        </unit>
+        <unit abbreviation="mg*m-3" id="milligramsPerCubicMeter"
+          multiplerToSI=".001" name="milligramsPerCubicMeter"
+          parentSI="gramsPerCubicMeter" unitType="volumetricMassDensity">
+          <description>concentration unit</description>
+        </unit>
+        <unit abbreviation="S*m-1" id="siemensPerMeter"
+          multiplerToSI="1" name="siemensPerMeter" parentSI="siemen" unitType="conductance">
+          <description>conductivity unit, seawater</description>
+        </unit>
+        <unit abbreviation="mg*m-3*d-1" constantToSI="0"
+          id="milligramPerMeterCubedPerDay" multiplierToSI="0"
+          name="milligramPerMeterCubedPerDay"
+          parentSI="kilogramPerMeterCubedPerSecond" unitType="volumetricMassDensityRate">
+          <description>volumetric primary production rate, in a parcel of water</description>
+        </unit>
+        <unit abbreviation="pmol/L/hr" id="picomolePerLiterPerHour"
+          name="picomolePerLiterPerHour" unitType="amountOfSubstanceWeightFlux">
+          <description>picomoles per liter of solution per hour (concentration flux)</description>
+        </unit>
+        <unit abbreviation="g/mÂ³" constantToSI="0"
+          id="gramPerCubicMeter" multiplierToSI="0.001"
+          name="gramPerCubicMeter" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <description>gram per cubic meter</description>
+        </unit>
+        <unit abbreviation="" constantToSI="0" id="numberPerLiter"
+          multiplierToSI="0.001" name="numberPerLiter"
+          parentSI="numberPerMeterCubed" unitType="volumetricDensity">
+          <description>number of entities per liter</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bex.1.5" system="BES" xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <!-- system="BES" -->
+  <access authSystem="https://pasta.lternet.edu/authentication" order="allowFirst" scope="document"
+    system="BES">
+    <allow>
+      <principal>uid=BES,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <title>Stream chemistry for watershed 263 (urban) sites</title>
+    <creator id="bes-emlscript" system="beslter" scope="system">
+      <organizationName>Cary Institute Of Ecosystem Studies</organizationName>
+      <address>
+          <deliveryPoint>Baltimore Ecosystem Study</deliveryPoint>
+          <deliveryPoint>1280 Sharon Turnpike</deliveryPoint>
+          <deliveryPoint>PO Box AB</deliveryPoint>
+          <city>Millbrook</city>
+          <administrativeArea>NY</administrativeArea>
+          <postalCode>12545</postalCode>
+          <country>USA</country>
+        </address>
+      <onlineUrl>http://caryinstitute.org</onlineUrl>
+    </creator>
+    <!--  
+        TO DO
+        be sure to close this creator before starting another one for Peter -->
+
+
+    <creator>
+      <individualName>
+        <givenName>Peter</givenName>
+        <surName>Groffman</surName>
+      </individualName>
+      <address>
+          <deliveryPoint>Baltimore Ecosystem Study</deliveryPoint>
+          <deliveryPoint>1280 Sharon Turnpike</deliveryPoint>
+          <deliveryPoint>PO Box AB</deliveryPoint>
+          <city>Millbrook</city>
+          <administrativeArea>NY</administrativeArea>
+          <postalCode>12545</postalCode>
+          <country>USA</country>
+        </address>
+      <electronicMailAddress>groffmanp@caryinstitute.org</electronicMailAddress>
+    </creator>
+    <pubDate>2007-03-02</pubDate>
+    <!--  TO DO put abstract here -->
+    <abstract>
+      <para> In the Baltimore urban long-term ecological research (LTER) project, (Baltimore
+        Ecosystem Study, BES) we use the watershed approach to evaluate integrated ecosystem
+        function. The LTER research is centered on the Gwynns Falls watershed, a 17,150 ha catchment
+        that traverses a gradient from the urban core of Baltimore, through older urban residential
+        (1900 - 1950) and suburban (1950- 1980) zones, rapidly suburbanizing areas and a
+        rural/suburban fringe. Our long-term sampling network includes four longitudinal sampling
+        sites along the Gwynns Falls as well as several small (40 - 100 ha) watersheds located
+        within or near to the Gwynns Falls. The longitudinal sites provide data on water and
+        nutrient fluxes in the different land use zones of the watershed (rural/suburban, rapidly
+        suburbanizing, old suburban, urban core) and the small watersheds provide more focused data
+        on specific land use areas (forest, agriculture, rural/suburban, urban). Each of the gaging
+        sites is continuously monitored for discharge and is sampled weekly for chemistry.
+        Additional chemical sampling is carried out in a supplemental set of sites to provide a
+        greater range of land use. Weekly analyses includes nitrate, phosphate, total nitrogen,
+        total phosphorus, chloride and sulfate, total suspended solids, turbidity, fecal coliforms,
+        temperature, dissolved oxygen and pH. Cations, dissolved organic carbon and nitrogen and
+        metals are measured on selected samples. This dataset is for Watershed 263, a 364 ha urban
+        storm drain watershed (or sewershed), with 30,000 residents with mixed industrial,
+        institutional, and residential land uses. In March 2004, we established long-term monitoring
+        sites in two sub-watersheds within W283. Both are approximately 17 ha, with 20% impervious
+        surface and 4% vegetation cover. Samples (weekly grab and flow-weighted composite) are taken
+        in a stormwater drainage pipe. </para>
+    </abstract>
+
+    <keywordSet>
+      <keyword keywordType="theme">stream</keyword>
+      <keyword keywordType="theme">watershed</keyword>
+      <keyword keywordType="theme">nitrate</keyword>
+      <keyword keywordType="theme">phosphate</keyword>
+      <keyword keywordType="theme">nitrogen</keyword>
+      <keyword keywordType="theme">phosphorus</keyword>
+      <keyword keywordType="theme">chloride</keyword>
+      <keyword keywordType="theme">sulfate RG: Baltimore Ecosystem Study</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Baltimore</keyword>
+      <keyword keywordType="theme">MD</keyword>
+      <keyword keywordType="theme">Washington</keyword>
+      <keyword keywordType="theme">D.C</keyword>
+      <keyword keywordType="theme">Chesapeake Bay</keyword>
+      <keyword keywordType="theme">Baltimore-Washington</keyword>
+      <keyword keywordType="theme">Maryland</keyword>
+    </keywordSet>
+
+    <intellectualRights>
+      <para>The scientists, the BES-LTER Program, and the Cary Institute of Ecosystem Studies must
+        receive adequate acknowledgement for the use of data by other scientists, and the BES LTER
+        program must receive two copies of any publication using that data.</para>
+    </intellectualRights>
+    <distribution>
+      <!-- TO DO: add an online lement here., around <url> -->
+      <!-- to do: this is a good place for BES's site RUL -->
+      <online>
+        <url function="information"
+          >http://www.beslter.org/pub/stream/2010/W263_final_chemistry_WWW_sept2010.txt</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Bounding coordinates describing the area covered by the entire BES study</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-77.314183</westBoundingCoordinate>
+          <eastBoundingCoordinate>-76.012008</eastBoundingCoordinate>
+          <northBoundingCoordinate> 39.724847</northBoundingCoordinate>
+          <southBoundingCoordinate> 39.724847</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1999-08-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012-09-08</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Baltimore Ecosystem Study Information Manager</positionName>
+      <address>
+          <deliveryPoint>Cary Institute Of Ecosystem Studies</deliveryPoint>
+          <deliveryPoint>2801 Sharon Turnpike</deliveryPoint>
+          <city>Millbrook</city>
+          <administrativeArea>New York</administrativeArea>
+          <postalCode>12545</postalCode>
+          <country>USA</country>
+        </address>
+      <electronicMailAddress>walshj@caryinstitute.org</electronicMailAddress>
+    </contact>
+
+    <!-- doesnt not belong here! -->
+    <!-- 
+        <intellectualRights>
+        <para>Publisher: Peter Groffman ,     Email: groffmanp@ecostudies.org The scientists, the BES-LTER Program, and the Cary Institute of Ecosystem Studies must receive adequate acknowledgement for the use of data by other scientists, and the BES LTER program must receive two copies of any publication using that data.</para>
+        </intellectualRights> -->
+    <!-- ?? an extra distribution element here. -->
+    <!-- 
+        <distribution>
+        </distribution> -->
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Nitrates NO3</title>
+            <para>Nitrate-N(NO3--N) + Nitrite-N(NO2--N) is analyzed by the automated flow injection
+              Cadmium Reduction method using a Lachat Quickchem 8000 Automated Ion Analyzer system.
+              Nitrate is reduced to nitrite by a cadmium/copper column. Nitrite is diazotized with
+              sulfanilamide and then reacts with N-(1-naphthyl-)-ethylenediamine dihydrochloride at
+              a pH of 8.5 to form a colored(pink to red) azo compound, whose intensity is
+              proportional to the amount of nitrate plus nitrite in the sample. Measurements are
+              made with a colorimeter at a wavelength of 520 nm. Nitrate-N +Nitrite-N concentrations
+              in samples are determined by comparing sample absorbance with those obtained from a
+              calibration curve comprised of standards containing Nitrate- N concentrations from
+              0.25 to 30.0 mg Nitrate-N/L</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>BES_0570</entityName>
+      <entityDescription>Main data table for data set BES_0570</entityDescription>
+      <physical>
+        <objectName>W263_final_chemistry_WWW_sept2010.txt</objectName>
+        <size unit="kilobyte">31.4</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <!-- <textFormat>
+               
+              <numHeaderLines>5</numHeaderLines>
+              <numFooterLines>0</numFooterLines>
+              <recordDelimiter>,</recordDelimiter>
+              <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+              <attributeOrientation>column</attributeOrientation>
+              <simpleDelimited>
+              <fieldDelimiter>\r\n</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+              </simpleDelimited>
+              </textFormat> -->
+          <textFormat>
+            <numHeaderLines>10</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>\t</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CSV File of stream chemistry values - 5 parameters, Date, Site, Cl (mg/L), NO3 (mg N/L), TN (mg N/L), TP (ugP/L), PO4 (ug P/L), SO4 (mg/L)</onlineDescription>
+            <url function="download">http://www.beslter.org/pub/stream/2010/test.txt</url>
+          </online>
+          <!-- close the online lement before you start the access tag -->
+          <access authSystem="knb" order="allowFirst" scope="document">
+            <allow>
+              <principal>uid=BES,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+          <!--  </online> -->
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="BES-da-0001">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD-WWW-YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <!-- these three attributes are not in this table
+               -->
+        <!-- 
+              <attribute id="BES-da-0002">
+                <attributeName>Time</attributeName>
+                <attributeDefinition>Time of day</attributeDefinition>
+                <storageType>string</storageType>
+                <measurementScale><dateTime><formatString>hh:mm</formatString><dateTimeDomain/></dateTime></measurementScale>
+              </attribute>
+              <attribute id="BES-da-0003">
+                <attributeName>Longitude</attributeName>
+                <attributeDefinition>Geographic Longitude</attributeDefinition>
+                <storageType>float</storageType>
+                <measurementScale><interval><unit><standardUnit>degree</standardUnit></unit><precision>0.0001</precision><numericDomain><numberType>real</numberType><bounds><minimum exclusive="false">-180</minimum><maximum exclusive="false">180</maximum></bounds></numericDomain></interval></measurementScale>
+              </attribute>
+              <attribute id="BES-da-0004">
+                <attributeName>Latitude</attributeName>
+                <attributeDefinition>Geographic Latitude</attributeDefinition>
+                <storageType>float</storageType>
+                <measurementScale><interval><unit><standardUnit>degree</standardUnit></unit><precision>0.0001</precision><numericDomain><numberType>real</numberType><bounds><minimum exclusive="false">-90</minimum><maximum exclusive="false">90</maximum></bounds></numericDomain></interval></measurementScale>
+              </attribute>
+               -->
+        <attribute id="BES-da-0005">
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Sampling site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Transect code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="BES-da-0006">
+          <attributeName>CL_Conc</attributeName>
+          <attributeDefinition>Concentration of Chlorine</attributeDefinition>
+          <storageType>float</storageType>
+          <!-- muisspelled exclusive -->
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.00</minimum>
+                  <maximum exclusive="false">8.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>           
+            <code>.</code>
+            <codeExplanation>NO DATA!</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0007">
+          <attributeName>NO3_Conc</attributeName>
+          <attributeDefinition>Concentration of Nitrate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.00</minimum>
+                  <maximum exclusive="false">8.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>           
+            <code>.</code>
+            <codeExplanation>NO DATA!</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0008">
+          <attributeName>TN_Conc</attributeName>
+          <attributeDefinition>Total Nitrogen Concentration mg N/L</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.00</minimum>
+                  <maximum exclusive="false">8.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>           
+            <code>.</code>
+            <codeExplanation>NO DATA!</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0009">
+          <attributeName>TP_Conc</attributeName>
+          <attributeDefinition>Total Phosphor</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramsPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">10.00</minimum>
+                  <maximum exclusive="false">150.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>           
+            <code>.</code>
+            <codeExplanation>NO DATA!</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0010">
+          <attributeName>PO4_Conc</attributeName>
+          <attributeDefinition>Phosphate concentration ug/L</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramsPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">10.00</minimum>
+                  <maximum exclusive="false">150.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>           
+            <code>.</code>
+            <codeExplanation>NO DATA!</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0011">
+          <attributeName>SO4_Conc</attributeName>
+          <attributeDefinition>Sulfate concentration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramsPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">8.00</minimum>
+                  <maximum exclusive="false">80.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!-- to do: add missing value code here -->
+          <missingValueCode>           
+            <code>.</code>
+            <codeExplanation>NO DATA!</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <!-- put in your coustom units here -->
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+      <unit id="microgramsPerLiter" name="microgramsPerLiter"
+        unitType="amountOfSubstanceConcentration" abbreviation="umol*l-1" parentSI="gramPerLiter"
+        multiplerToSI=".000001">
+        <description>concentration unit</description>
+      </unit>
+        <unit id="milligramsPerLiter" name="milligramsPerLiter"
+          unitType="amountOfSubstanceConcentration" abbreviation="mmol*l-1" parentSI="gramPerLiter"
+          multiplerToSI=".001">
+          <description>concentration unit</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
